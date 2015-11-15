@@ -1,0 +1,426 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, tbody, tfoot, thead,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 auto;
+	padding: 0;
+	font-size: 100%
+}
+a
+{
+	text-decoration: none;
+    color: #FF0000
+}
+img
+{
+	border: 0
+}
+.clear
+{
+	clear: both
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0
+}
+ 
+.clearfix {
+	
+}
+ 
+html[xmlns] .clearfix {
+	display: block
+}
+ 
+* html .clearfix {
+	height: 1%
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block
+}
+body {
+	line-height: 1
+}
+ol.th_ul, ul.th_ul, li.th_ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none
+}
+
+/* Common */
+.tag_a_1 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #0d5c00
+}
+
+.tag_a_1:hover {
+    color: #18aa00
+}
+
+.tag_a_2 {
+    color: #313030;
+    font-size: 18px
+}
+
+.tag_a_2:hover {
+    color: #8F0302
+}
+
+.tag_img_1 {
+    width: 310px
+}
+
+.tag_img_2 {
+    width: 336px;
+    height: 163px
+}
+
+.tag_img_3 {
+    width: 235px;
+    height: 180px
+}
+
+.mg_r_5
+{
+	margin-right: 5px
+}
+
+.mg_r_10
+{
+	margin-right: 10px
+}
+
+.mg_r_15
+{
+	margin-right: 15px
+}
+
+.mg_r_20
+{
+	margin-right: 20px
+}
+
+
+.mg_r_25
+{
+	margin-right: 25px
+}
+
+.mg_t_5
+{
+    margin-top: 5px
+}
+
+.mg_t_6
+{
+    margin-top: 6px
+}
+
+.mg_t_10
+{
+    margin-top: 10px	
+}
+
+.mg_t_12
+{	
+	margin-top: 12px	
+}
+
+.mg_t_15
+{	
+	margin-top: 15px	
+}
+
+.mg_t_20
+{
+    margin-top: 20px	
+}
+
+.mg_bt_1
+{
+	margin-bottom: 1px
+}
+
+.mg_bt_5
+{
+	margin-bottom: 5px
+}
+
+.mg_bt_10
+{
+	margin-bottom: 10px
+}
+
+.mg_bt_15
+{
+	margin-bottom: 15px
+}
+
+.mg_bt_20
+{
+	margin-bottom: 20px
+}
+
+.mg_l_5
+{
+	margin-left: 5px
+}
+
+.mg_l_10
+{
+	margin-left: 10px
+}
+
+.mg_l_20
+{
+	margin-left: 20px
+}
+
+.pd_t_5
+{
+    padding-top: 5px
+}
+
+.pd_t_10
+{
+    padding-top: 10px
+}
+
+.pd_t_15
+{
+    padding-top: 15px
+}
+
+.pd_t_20
+{
+    padding-top: 20px
+}
+
+.pd_l_5 {
+    padding-left: 5px
+}
+
+.pd_l_10 {
+    padding-left: 10px
+}
+
+.pd_l_12 {
+    padding-left: 12px
+}
+
+.pd_l_22 {
+    padding-left: 22px
+}
+
+.pd_r_5 {
+    padding-right: 5px
+}
+
+.pd_r_10 {
+    padding-right: 10px
+}
+
+.pd_r_22 {
+    padding-right: 22px
+}
+
+.pd_bt_5
+{
+    padding-bottom: 5px
+}
+
+.pd_bt_10
+{
+    padding-bottom: 10px
+}
+
+.pd_bt_15
+{
+    padding-bottom: 15px
+}
+
+.pd_bt_20
+{
+    padding-bottom: 20px
+}
+
+.pd_3_0
+{
+    padding: 3px 0
+}
+
+.fl_r
+{
+	float: right	
+}
+
+.fl_l
+{
+	float: left
+}
+
+.upp
+{
+	text-transform: uppercase
+}
+
+.fo_Ar
+{
+	font-family: Arial
+}
+
+.tal_r
+{
+	text-align: right
+}
+
+.tal_cen
+{
+	text-align: center
+}
+
+.tal_jus {
+    text-align: justify
+}
+
+.cl_red
+{
+	color: red
+}
+
+.cl_white
+{
+	color: #FFF
+}
+
+.cl_black
+{
+	color: black
+}
+
+.cl_636
+{
+    color: #636262
+}
+
+.cl_007
+{
+    color: #0077bd
+}
+
+.cl_550 {
+    color: #550100
+}
+
+.cl_e89
+{
+    color: #e89f15
+}
+
+.cl_721
+{
+    color: #721c2b
+}
+
+.cl_FD0 {
+    color: #FD004C
+}
+
+.cl_86A {
+    color: #86A545
+}
+
+.cl_f4b {
+    color: #f4b80c
+}
+
+.w_178
+{
+	width: 178px
+}
+
+.w_84
+{
+	width: 84px
+}
+
+.bold
+{
+    font-weight: bold
+}
+
+.dp_bl
+{
+    display: block
+}
+
+.dp_inbl
+{
+    display: inline-block
+}
+
+.fs_17 {
+    font-size: 17px
+}
+
+.fs_15 {
+    font-size: 15px
+}
+
+.fs_13 {
+    font-size: 13px
+}
+
+.bd_bt {
+    border-bottom: 1px solid #e00404
+}
+
+.ft_it {
+    font-style: italic
+}
+
+.fst_ita {
+    font-style: italic
+}
+
+.ov_hd {
+    overflow: hidden;
+}
+
+.bd_r {
+    background: url('/Styles/images/page/border_right.png') repeat-y right top
+}
+
+.b_sz {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+.bd_rad_5 {
+    border-radius: 5px
+}
+/* */

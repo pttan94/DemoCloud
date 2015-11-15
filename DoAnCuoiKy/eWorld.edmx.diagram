@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c7dcc662b1f049889bb9f38db16bef7d" Name="Diagram1">
+        <EntityTypeShape EntityType="eWorldModel.Cart" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.Category" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.CategoryMenu" Width="1.5" PointX="5.25" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.ImageBanner" Width="1.5" PointX="8.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.ImageSlide" Width="1.5" PointX="7.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.NewsLetter" Width="1.5" PointX="9.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.Order" Width="1.5" PointX="6" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.OrderDetail" Width="1.5" PointX="8.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.Product" PointX="3" PointY="4.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.ProductInCategory" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.ProductStock" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.ShopInfo" Width="1.5" PointX="10.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="eWorldModel.sysdiagram" Width="1.5" PointX="10.75" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector ManuallyRouted="false" Association="eWorldModel.FK_Cart_Product" />
+        <AssociationConnector Association="eWorldModel.FK_CategoryMenu_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="eWorldModel.FK_ProductInCategory_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="eWorldModel.FK_OrderDetails_Order" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="false" Association="eWorldModel.FK_OrderDetails_Product" />
+        <AssociationConnector ManuallyRouted="false" Association="eWorldModel.FK_Product_ProductStock" />
+        <AssociationConnector ManuallyRouted="false" Association="eWorldModel.FK_ProductInCategory_Product" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
