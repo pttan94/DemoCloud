@@ -136,8 +136,6 @@ F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\Owin.dll
 F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\System.Web.Optimization.dll
 F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\System.Web.Providers.dll
 F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\WebGrease.dll
-F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\CkEditor.pdb
-F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\CKEditor.NET.pdb
 F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\Microsoft.Owin.xml
 F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\System.Web.Optimization.xml
 F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\Antlr3.Runtime.pdb
@@ -157,6 +155,5 @@ F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\Microsoft.Owin.Security.Google.xml
 F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\Microsoft.Owin.Security.Twitter.xml
 F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 F:\Download\Git\DemoCloud\DoAnCuoiKy\bin\Microsoft.Owin.Security.OAuth.xml
-F:\Download\Git\DemoCloud\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csprojResolveAssemblyReference.cache
 F:\Download\Git\DemoCloud\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.dll
 F:\Download\Git\DemoCloud\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.pdb
