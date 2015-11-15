@@ -35,8 +35,7 @@
                 <td>
                     <asp:Label ID="Label3" runat="server">Cấu hình chi tiết:</asp:Label></td>
                 <td>
-                    <ckeditor:ckeditorcontrol ID="AddProductDetail" BasePath="/ckeditor/" runat="server"></ckeditor:ckeditorcontrol>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td>
@@ -51,8 +50,7 @@
                 <td>
                     <asp:Label ID="Label6" runat="server">Đánh giá sản phẩm:</asp:Label></td>
                 <td>
-                    <ckeditor:ckeditorcontrol ID="AddProductReview" BasePath="/ckeditor/" runat="server"></ckeditor:ckeditorcontrol>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td>
