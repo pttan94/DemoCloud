@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Cài đặt chung" Language="C#" MasterPageFile="~/eWorld.Master" AutoEventWireup="true" CodeBehind="Admin_general.aspx.cs" Inherits="DoAnCuoiKy.Admin.Admin_general" %>
 
-<%@ Register Assembly="CKEditor.NET" Namespace="CKEditor.NET" TagPrefix="CKEditor" %>
+<%--<%@ Register Assembly="CKEditor.NET" Namespace="CKEditor.NET" TagPrefix="CKEditor" %>--%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
    
@@ -33,13 +33,10 @@
     <h1>Thông tin cửa hàng</h1>
 
     <h3>Thông tin liên lạc</h3>
-    <CKEditor:CKEditorControl ID="info_contact" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
 
     <h3>Trung tâm bảo hành</h3>
-    <CKEditor:CKEditorControl ID="warranty" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
 
     <h3>Hệ thống của hàng</h3>
-    <CKEditor:CKEditorControl ID="showroom" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
     <asp:Button runat="server" Text="Lưu" ID="save_info" OnClick="save_info_Click" />
 
     <script type="text/javascript">

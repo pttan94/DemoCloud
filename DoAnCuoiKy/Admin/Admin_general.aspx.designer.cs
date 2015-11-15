@@ -103,33 +103,6 @@ namespace DoAnCuoiKy.Admin {
         protected global::System.Web.UI.WebControls.Label listofuploadedfiles;
         
         /// <summary>
-        /// info_contact control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl info_contact;
-        
-        /// <summary>
-        /// warranty control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl warranty;
-        
-        /// <summary>
-        /// showroom control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl showroom;
-        
-        /// <summary>
         /// save_info control.
         /// </summary>
         /// <remarks>

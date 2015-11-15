@@ -103,15 +103,6 @@ namespace DoAnCuoiKy.Admin {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// AddProductDetail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl AddProductDetail;
-        
-        /// <summary>
         /// Label4 control.
         /// </summary>
         /// <remarks>
@@ -157,15 +148,6 @@ namespace DoAnCuoiKy.Admin {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// AddProductReview control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl AddProductReview;
-        
-        /// <summary>
         /// Label7 control.
         /// </summary>
         /// <remarks>
@@ -193,15 +175,6 @@ namespace DoAnCuoiKy.Admin {
         protected global::System.Web.UI.WebControls.Label Label8;
         
         /// <summary>
-        /// AddProductGift control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl AddProductGift;
-        
-        /// <summary>
         /// Label9 control.
         /// </summary>
         /// <remarks>
@@ -209,15 +182,6 @@ namespace DoAnCuoiKy.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label9;
-        
-        /// <summary>
-        /// AddProductsale control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl AddProductsale;
         
         /// <summary>
         /// Label10 control.

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Chi tiết sản phẩm" Language="C#" MasterPageFile="~/eWorld.Master" AutoEventWireup="true" CodeBehind="Admin_editproduct.aspx.cs" Inherits="DoAnCuoiKy.Admin.Admin_editproduct" %>
-<%@ Register Assembly="CKEditor.NET" Namespace="CKEditor.NET" TagPrefix="CKEditor" %>
+<%--<%@ Register Assembly="CKEditor.NET" Namespace="CKEditor.NET" TagPrefix="CKEditor" %>--%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="space"></div>
@@ -34,8 +34,7 @@
                 <td>
                     <asp:Label ID="Label3" runat="server">Cấu hình chi tiết:</asp:Label></td>
                 <td>
-                    <CKEditor:CKEditorControl ID="AddProductDetail" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td>
@@ -50,8 +49,7 @@
                 <td>
                     <asp:Label ID="Label6" runat="server">Đánh giá sản phẩm:</asp:Label></td>
                 <td>
-                    <CKEditor:CKEditorControl ID="AddProductReview" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td>
@@ -64,15 +62,13 @@
                 <td>
                     <asp:Label ID="Label8" runat="server">Quà tặng:</asp:Label></td>
                 <td>
-                    <CKEditor:CKEditorControl ID="AddProductGift" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td>
                     <asp:Label ID="Label9" runat="server">Ưu đãi:</asp:Label></td>
                 <td>
-                    <CKEditor:CKEditorControl ID="AddProductsale" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td>

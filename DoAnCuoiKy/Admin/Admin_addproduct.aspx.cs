@@ -59,10 +59,15 @@ namespace DoAnCuoiKy.Admin
             bool addSuccess;
             BUS products = new BUS();
 
-            addSuccess = products.AddProduct(AddProductName.Text, AddProductDescription.Text, AddProductDetail.Text,
-                AddProductPrice.Text, AddProductReview.Text, 1, AddProductGift.Text,
-                AddProductsale.Text, AddProductVendor.Text, AddProductOnsale.Checked, AddProductOldPrice.Text,
+            //addSuccess = products.AddProduct(AddProductName.Text, AddProductDescription.Text, AddProductDetail.Text,
+            //    AddProductPrice.Text, AddProductReview.Text, 1, AddProductGift.Text,
+            //    AddProductsale.Text, AddProductVendor.Text, AddProductOnsale.Checked, AddProductOldPrice.Text,
+            //    image_name[0].ToString(), image_name[1].ToString(), image_name[2].ToString(), image_name[3].ToString(), Show.Checked, cat_id);
+            addSuccess = products.AddProduct(AddProductName.Text, AddProductDescription.Text, "",
+                AddProductPrice.Text, "", 1, "",
+               "", AddProductVendor.Text, AddProductOnsale.Checked, AddProductOldPrice.Text,
                 image_name[0].ToString(), image_name[1].ToString(), image_name[2].ToString(), image_name[3].ToString(), Show.Checked, cat_id);
+
 
             if (addSuccess)
             {

@@ -52,9 +52,9 @@ namespace DoAnCuoiKy.Admin
             var tmp = db.ShopInfoes;
             db.ShopInfoes.RemoveRange(tmp);
             ShopInfo s = new ShopInfo();
-            s.InfoContact = info_contact.Text;
-            s.Warranty = warranty.Text;
-            s.Showroom = showroom.Text;
+            s.InfoContact = "";
+            s.Warranty = "";
+            s.Showroom = "";
 
             db.ShopInfoes.Add(s);
             db.SaveChanges();
@@ -63,9 +63,9 @@ namespace DoAnCuoiKy.Admin
         {
             eWorldEntities db = new eWorldEntities();
             var tmp = db.ShopInfoes.FirstOrDefault();
-            info_contact.Text = tmp.InfoContact;
-            warranty.Text = tmp.Warranty;
-            showroom.Text = tmp.Showroom;
+            //info_contact.Text = tmp.InfoContact;
+            //warranty.Text = tmp.Warranty;
+            //showroom.Text = tmp.Showroom;
 
             var tmp2 = db.ImageBanners.ToList();
             foreach (ImageBanner im in tmp2)

@@ -74,9 +74,14 @@ namespace DoAnCuoiKy.Admin
 
             BUS products = new BUS();
 
-            products.editProduct(p, AddProductName.Text, AddProductDescription.Text, AddProductDetail.Text,
-            AddProductPrice.Text, AddProductReview.Text, 1, AddProductGift.Text,
-            AddProductsale.Text, AddProductVendor.Text, AddProductOnsale.Checked, AddProductOldPrice.Text,
+            //products.editProduct(p, AddProductName.Text, AddProductDescription.Text, AddProductDetail.Text,
+            //AddProductPrice.Text, AddProductReview.Text, 1, AddProductGift.Text,
+            //AddProductsale.Text, AddProductVendor.Text, AddProductOnsale.Checked, AddProductOldPrice.Text,
+            //image_name[0].ToString(), image_name[1].ToString(), image_name[2].ToString(), image_name[3].ToString(), Show.Checked, cat_id);
+            //db.SaveChanges();
+            products.editProduct(p, AddProductName.Text, AddProductDescription.Text,"",
+            AddProductPrice.Text, "", 1, "",
+            "", AddProductVendor.Text, AddProductOnsale.Checked, AddProductOldPrice.Text,
             image_name[0].ToString(), image_name[1].ToString(), image_name[2].ToString(), image_name[3].ToString(), Show.Checked, cat_id);
             db.SaveChanges();
 
@@ -89,12 +94,12 @@ namespace DoAnCuoiKy.Admin
         {
             AddProductName.Text = p.ProductName;
             AddProductDescription.Text = p.Description;
-            AddProductDetail.Text = p.Detail;
+            //AddProductDetail.Text = p.Detail;
             AddProductPrice.Text = p.Price.ToString();
-            AddProductReview.Text = p.Review;
+            //AddProductReview.Text = p.Review;
             AddProductStock.SelectedIndex = (Int32)(p.StockID - 1);
-            AddProductGift.Text = p.Gift;
-            AddProductsale.Text = p.Sale;
+           // AddProductGift.Text = p.Gift;
+           // AddProductsale.Text = p.Sale;
             AddProductVendor.Text = p.Vendor;
             if (p.onSale == true)
                 AddProductOnsale.Checked = true;
